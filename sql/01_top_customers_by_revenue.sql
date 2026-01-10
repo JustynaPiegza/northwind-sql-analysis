@@ -1,5 +1,10 @@
--- Question:
+-- Bussines question:
 -- Which customers generate the highest revenue?
+
+-- Explenation:
+-- Revenue is calculated as: UnitPrice * Quantity * (1 - Discount)
+-- The query aggregates revenue per customer 
+-- Results are ordered from highest to lowest revenue
 
 SELECT
     c.CustomerID,
