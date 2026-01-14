@@ -6,10 +6,13 @@
 -- The query aggregates revenue per customer 
 -- Results are ordered from highest to lowest revenue
 
-SELECT
+SELECT TOP 10
     c.CustomerID,
     c.CompanyName,
-    SUM(od.UnitPrice * od.Quantity * (1 - od.Discount)) AS total_revenue
+    ROUND(
+        SUM(od.UnitPrice * od.Quantity * (1 - od.Discount)),
+        2
+    ) AS total_revenue
 FROM Customers c
 JOIN Orders o
     ON c.CustomerID = o.CustomerID
