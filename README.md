@@ -1,2 +1,2 @@
 # northwind-sql-analysis
-Analiza danych sprzedażowych bazy Northwind z wykorzystaniem języka SQL
+Sales data analysis of the Northwind sample database using SQL.
