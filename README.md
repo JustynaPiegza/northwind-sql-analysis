@@ -26,3 +26,15 @@ The project answers the following business questions:
 
 ## Project Status
 Completed
+
+## 📊 Excel Analysis
+
+The Excel file contains a visual analysis of sales revenue based on the results of SQL queries from the Northwind database.
+
+**Contents:**
+- Monthly revenue trend (line chart)
+- Yearly total revenue comparison
+- Time-based aggregation (year and month)
+- Currency: USD
+
+The Excel analysis complements the SQL queries by presenting revenue trends in a clear and readable visual form.
